@@ -12,7 +12,6 @@ Practical field notes from real-world work across:
 - CKAD-style patterns
 - platform engineering and production operations
 
-This repo is not a “Day 1 / Day 2” learning log.
 
 It is a collection of sharp, practical, operator-focused notes based on real systems, real commands, real debugging, and real platform engineering judgment.
 
@@ -38,6 +37,3 @@ Each note aims to be:
 - production-aware
 - immediately useful
 
-## First note
-
-- `eks/kubectl-rollout-status-is-underrated.md`

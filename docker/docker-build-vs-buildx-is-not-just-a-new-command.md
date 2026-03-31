@@ -2,17 +2,11 @@
 
 > It's not a version upgrade. It's a different mental model for where your builds live in the world.
 
-**Tags:** DevOps · Docker · Container Builds · CI/CD  
-**Level:** Intermediate → Advanced  
-**Read time:** ~18 min
-
----
 
 Here is a trap I see engineers fall into constantly: they encounter `docker buildx` for the first time, treat it as the "new version" of `docker build`, and move on. That framing creates real confusion later — especially the moment an image disappears after a successful build, or a CI pipeline needs to serve ARM and x86 simultaneously.
 
 This article is a field guide. We will go deep on what each command actually does, when to use which, why the output behavior differs, and how to use `buildx` correctly in a real delivery pipeline. No hand-waving — just the mechanics.
 
----
 
 ## Two Commands, Two Philosophies
 
@@ -363,6 +357,3 @@ For platform engineers, CI/CD infrastructure, or any team shipping ARM-compatibl
 
 Learn both. Use each where it fits. The confusion goes away the moment you stop treating them as versions of the same thing.
 
----
-
-*All examples tested against Docker Engine 25.0 / BuildKit 0.13+. The `--platform` flag with multiple targets requires the docker-container or kubernetes driver. The GHA cache backend requires the `docker/build-push-action` GitHub Action.*

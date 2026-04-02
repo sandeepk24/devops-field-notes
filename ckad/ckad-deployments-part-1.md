@@ -1,8 +1,5 @@
 # CKAD Deployments Mastery — Part 1: The Blueprint & Core Patterns
 
-> **Series:** CKAD Deployments Mastery · Part 1 of 2  
-> **Level:** Intermediate → Advanced · **Read time:** ~17 min  
-> **Tags:** `CKAD` `Kubernetes` `Deployments` `Exam Prep` `K8s 1.31+`
 
 ---
 
@@ -158,7 +155,6 @@ spec:
 
 ---
 
-## Exam Pattern 1 — Create a Deployment from scratch
 
 ### `[Task 01]` Create a Deployment with specific resource constraints · *Easy*
 
@@ -236,7 +232,6 @@ spec:
 
 ---
 
-## Exam Pattern 2 — Rolling Update and Rollback
 
 ### `[Task 02]` Perform rolling update then roll back to previous version · *Medium*
 
@@ -325,18 +320,7 @@ kubectl get replicasets -n prod --watch
 
 ---
 
-## Coming in Part 2 — Tomorrow
-
-Part 2 covers the patterns that require the most mental model work:
-
-- **Exam Pattern 3** — Readiness & Liveness Probes (all three probe mechanisms with syntax)
-- **Exam Pattern 4** — Canary Deployment with traffic math and the version label explained
-- **Exam Pattern 5** — Fix a Broken YAML with 6 deliberate bugs + systematic debug sequence
-- **Exam Pattern 6** — Zero-downtime Update Strategy configuration
-- **Exam Pattern 7** — Init Container with shared emptyDir volume
-- **The Imperative Cheat Sheet** — 16 speed commands in one reference
-- **The 10 Rules** — the pattern-matching rules that determine whether you pass at 72% or 91%
 
 ---
 
-*All YAML and commands validated against Kubernetes 1.31. The CKAD exam currently runs on Kubernetes 1.31 as of 2025. Verify the current exam version at [training.linuxfoundation.org](https://training.linuxfoundation.org) before your exam date. `kubectl explain` is available during the exam and reflects the actual cluster version — use it freely.*
+*These are not actual exam questions but what concepts they test in this exam. All YAML and commands validated against Kubernetes 1.31. The CKAD exam currently runs on Kubernetes 1.31 as of 2025. Verify the current exam version at [training.linuxfoundation.org](https://training.linuxfoundation.org) before your exam date. `kubectl explain` is available during the exam and reflects the actual cluster version — use it freely.*

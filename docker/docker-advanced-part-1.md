@@ -1,4 +1,4 @@
-# Docker Fundamentals for the Advanced DevOps Engineer
+# Docker Fundamentals for DevOps Engineer
 ## Part 1 of 3 — The Execution Stack, Linux Namespaces & cgroups
 
 > *Most Docker articles stop at `docker run`. This one starts there.*

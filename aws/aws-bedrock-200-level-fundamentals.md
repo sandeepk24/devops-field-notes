@@ -3,7 +3,6 @@
 > *Not a tutorial that ends at "Hello World." A foundation that explains the why behind every decision, so your second, third, and tenth Bedrock project are faster than your first.*
 
 **Tags:** `AWS` `Bedrock` `GenAI` `AI` `Cloud` `Beginner` `200-Level`
-**Level:** 200 — Foundational to Intermediate · **Read time:** ~25 min
 **Prerequisites:** Basic AWS knowledge (IAM, S3, Lambda concepts), Python basics
 
 ---
@@ -42,7 +41,7 @@ You do not train these from scratch. Training GPT-4 cost an estimated $100 milli
 │                                                                        │
 │  Your App                                                              │
 │    │                                                                   │
-│    │  "Explain what a VPC is to a junior engineer"                    │
+│    │  "Explain what a VPC is to a devops engineer"                     │
 │    ▼                                                                   │
 │  ┌─────────────────────────────────────────────────────────────────┐ │
 │  │              Amazon Bedrock (AWS Service)                        │ │

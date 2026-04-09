@@ -3,6 +3,7 @@
 > *Not a tutorial that ends at "Hello World." A foundation that explains the why behind every decision, so your second, third, and tenth Bedrock project are faster than your first.*
 
 **Tags:** `AWS` `Bedrock` `GenAI` `AI` `Cloud` `Beginner` `200-Level`
+
 **Prerequisites:** Basic AWS knowledge (IAM, S3, Lambda concepts), Python basics
 
 ---

@@ -11,6 +11,7 @@ Practical field notes from real-world work across:
 - AI for DevOps
 - CKAD-style patterns
 - platform engineering and production operations
+- AWS
 
 
 It is a collection of sharp, practical, operator-focused notes based on real systems, real commands, real debugging, and real platform engineering judgment.
@@ -28,6 +29,7 @@ It is a collection of sharp, practical, operator-focused notes based on real sys
 - `observability/` - metrics, logs, traces, alerting
 - `ckad/` - hands-on Kubernetes and exam-style patterns
 - `field-notes/` - cross-cutting architecture and operational notes
+- `aws/` - AWS cloud related concepts 
 
 ## Posting style
 

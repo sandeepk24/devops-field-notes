@@ -3,6 +3,7 @@
 > *Everyone has a "getting started with Bedrock" tutorial. This is not that.*
 
 **Tags:** `AWS` `Bedrock` `AgentCore` `Agentic AI` `GenAI` `RAG` `Strands` `MCP` `DevOps` `Cloud Architecture`
+
 **Last updated:** 2025 — covers AgentCore, Strands SDK, S3 Vectors, A2A protocol
 
 ---

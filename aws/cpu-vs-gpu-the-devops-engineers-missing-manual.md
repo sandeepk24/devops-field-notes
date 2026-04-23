@@ -3,6 +3,7 @@
 > **Audience:** DevOps / Platform Engineers working with application infrastructure, ML workloads, and cloud compute  
 > **Goal:** Understand CPU internals, its journey over decades, how your Python/Java app *actually* uses it, and why GPUs exist as a fundamentally different compute paradigm.
 
+CPU vs GPU for DevOps Engineers — covers CPU pipeline internals, Python GIL + asyncio, Java JIT, full request lifecycle, Kubernetes throttling, GPU CUDA architecture, and when to use which. With real benchmarks, perf commands, and AWS instance selection guidance.
 ---
 
 ## Table of Contents

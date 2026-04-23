@@ -64,9 +64,7 @@ The **AWS Load Balancer Controller (LBC)** is a Kubernetes controller that runs 
 
 > 🎨 **Architecture Diagram — EKS + ALB Ingress Overview:**
 >
-> [![EKS ALB Architecture](https://design.canva.ai/OKERF6XXENQhvId)](https://www.canva.com/d/2FR4WftgVwXPRAa)
 >
-> *Click to open and edit in Canva*
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -160,9 +158,7 @@ When the LBC sees a Kubernetes `Ingress` resource with `ingressClassName: alb`, 
 
 > 🎨 **Ingress Routing Diagram:**
 >
-> [![EKS Ingress Routing](https://design.canva.ai/E42vf1-zwazLqeu)](https://www.canva.com/d/w4wivNpQ3B6cdIt)
 >
-> *Click to open and edit in Canva*
 
 ---
 

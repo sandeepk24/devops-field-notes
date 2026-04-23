@@ -404,9 +404,7 @@ In ECS, security group isolation happens at the **task** level via `awsvpc` netw
 
 > 🎨 **Security Group Chain Diagram:**
 >
-> [![EKS Security Group Chain](https://design.canva.ai/giuf7ZD3Jo-iG6X)](https://www.canva.com/d/KzL4pn__lxLXiry)
 >
-> *Click to open and edit in Canva*
 
 ### How Security Groups for Pods Works
 

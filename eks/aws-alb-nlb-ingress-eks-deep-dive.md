@@ -1,5 +1,4 @@
 # AWS EKS Frontend Connectivity: ALB · NLB · Ingress — End-to-End Deep Dive
-> **Audience:** DevOps Engineers · Senior DevOps Engineers · Principal DevOps Engineers  
 > **Scope:** How ALB, NLB, and Kubernetes Ingress connect to EKS Clusters for reliable, secure, production-grade frontend traffic  
 > **Context:** Migration/comparison from ECS service-based load balancing → EKS Kubernetes-native load balancing  
 > **Last Updated:** 2026

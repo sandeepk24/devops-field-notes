@@ -1584,21 +1584,6 @@ docker-compose.test.yml         ← CI test environment
 
 ---
 
-## 📁 Where This Fits in the Repo
-
-```
-devops-field-guide/
-├── python/
-├── eks/
-├── ecs/
-│   └── what-devops-engineers-should-understand-about-ecs.md
-├── docker/
-│   └── docker-compose-local-to-ecs-the-complete-devops-playbook.md  ← THIS FILE
-├── ckad/
-├── aws/
-├── README.md
-└── LICENSE
-```
 
 > **Best home:** `docker/` — this is a Docker Compose deep dive, with the ECS translation as the destination. It bridges `docker/` and `ecs/` perfectly.
 
@@ -1606,4 +1591,3 @@ devops-field-guide/
 
 *Part of the [devops-field-guide](../) series · Built for working engineers, not textbooks.*  
 
-⭐ Star the repo if this helped you ship confidently from localhost to ECS.

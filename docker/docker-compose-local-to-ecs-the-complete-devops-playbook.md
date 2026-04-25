@@ -1582,12 +1582,6 @@ docker-compose.test.yml         ← CI test environment
 .env.staging                    ← Staging secrets (gitignored)
 ```
 
----
-
-
-> **Best home:** `docker/` — this is a Docker Compose deep dive, with the ECS translation as the destination. It bridges `docker/` and `ecs/` perfectly.
-
----
 
 *Part of the [devops-field-guide](../) series · Built for working engineers, not textbooks.*  
 

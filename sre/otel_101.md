@@ -1,6 +1,5 @@
 # OpenTelemetry 101: The Beginner's Guide to Modern Observability
 
-*By a Senior Monitoring Specialist — Written for humans, not robots*
 
 ---
 
@@ -224,4 +223,3 @@ Think of OpenTelemetry as the plumbing. It's the pipes that carry your telemetry
 
 ---
 
-*Next up: Article 2 — "OpenTelemetry for Cloud Architects: AWS, Multi-Cloud Monitoring, and Production Patterns"*

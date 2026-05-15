@@ -1,6 +1,5 @@
 # OpenTelemetry for Cloud Architects: AWS, Multi-Cloud Monitoring, and Production Patterns
 
-*By a Senior Monitoring Specialist — From fundamentals to production-grade observability*
 
 ---
 
@@ -456,4 +455,3 @@ With OTel data flowing into your backend, organize your dashboards in layers:
 
 ---
 
-*Next up: Article 3 — "Contributing to OpenTelemetry: The Open-Source Guide for Practitioners"*

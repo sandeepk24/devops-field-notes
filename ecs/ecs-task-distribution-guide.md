@@ -462,21 +462,7 @@ Fargate bills per vCPU-hour and GB-hour, rounded up to the nearest minute. Optim
 
 Both approaches distribute containers intelligently, but EC2 gives you control while Fargate gives you simplicity.
 
----
 
-## Questions to Deepen Understanding
-
-As you mentioned wanting to explore deep concepts through questions, here are some thought-provokers:
-
-1. **Resource Contention**: If two containers on the same EC2 instance both need to burst CPU usage simultaneously, how does the Linux kernel's CFS scheduler handle priority? What happens to your latency-sensitive API when a batch job spins up?
-
-2. **Network Throughput**: In Fargate with awsvpc mode, each task has its own ENI. How does this affect east-west traffic between services compared to EC2 with bridge mode? What are the bandwidth implications?
-
-3. **Cost Optimization**: Given Fargate's per-second billing and EC2's hourly billing (for on-demand), at what utilization percentage does EC2 become more cost-effective? How do Reserved Instances and Savings Plans change this calculation?
-
-4. **Failure Domains**: When ECS places tasks across AZs for high availability, how does it handle partial AZ failures? What's the task replacement SLA difference between EC2 and Fargate?
-
-Would you like me to dive deeper into any of these areas? I'm happy to explore specific scenarios or draw architectural diagrams to visualize the concepts further!
 
 ---
 

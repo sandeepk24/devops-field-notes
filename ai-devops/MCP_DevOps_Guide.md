@@ -1,7 +1,7 @@
 # MCP: The DevOps Engineer's Field Guide
 ### *Model Context Protocol — From Zero to Resilient Systems*
 
-> *Written from the perspective of a Sr. AI Architect who has burned too many late nights wiring APIs together by hand — and finally found a better way.*
+> *Written from the perspective of a Architect who has burned too many late nights wiring APIs together by hand — and finally found a better way.*
 
 ---
 

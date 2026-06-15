@@ -687,10 +687,3 @@ Includes eval framework for tracking triage accuracy over time.
 - Run INFORM mode on one real service for two weeks and track accuracy manually
 - Build the golden dataset: capture 10 real incidents this month with their actual root causes
 
-**Next topics from the backlog (in order):**
-- `ai-release-notes-generator.md` — AI release notes from Jira + Git commits (next in queue)
-- `ai-deployment-risk-scoring.md` — score a deployment before it ships, not after it breaks
-- `agent-memory-design-for-devops-workflows.md` — the memory system that makes triage agents smarter over time
-
-**Skill to deepen:**
-The tool design is the hardest part to get right. Read the Anthropic documentation on tool use, specifically the guidance on tool descriptions — the quality of the description text directly affects how reliably the agent invokes the right tool with the right parameters.

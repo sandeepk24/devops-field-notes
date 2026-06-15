@@ -652,19 +652,7 @@ def evaluate_accuracy(results: list[dict]) -> dict:
 
 ---
 
-## 9. GitHub or LinkedIn Content Angle
 
-### Git commit message
-
-```
-docs: add AI incident triage agent complete guide
-
-Covers triage agent architecture, tool design, three operating modes
-(inform/assist/act), production failure modes, and a working Python
-implementation using Claude with CloudWatch + ECS tool integrations.
-
-Includes eval framework for tracking triage accuracy over time.
-```
 
 **Thread structure:**
 1. "Traditional triage: 20 minutes to understand what's happening"

@@ -1,8 +1,6 @@
 # AI Incident Triage Agent: From Alert Noise to Root Cause in Seconds
 
-**Date:** 2026-06-14  
 **Category:** AIOps · AI DevOps · SRE · Incident Response  
-**Level:** Intermediate to Principal  
 **Why this matters:** The average engineer spends 20–40 minutes on initial triage before even starting remediation. An AI triage agent compresses that to seconds — querying logs, correlating metrics, identifying the blast radius, and surfacing a hypothesis. This is not a future capability. It is the most immediately high-ROI application of LLMs in production DevOps today.
 
 ---
@@ -667,10 +665,6 @@ implementation using Claude with CloudWatch + ECS tool integrations.
 
 Includes eval framework for tracking triage accuracy over time.
 ```
-
-### LinkedIn post idea
-
-**Hook:** "I got paged at 2am. Before I could open my laptop, the AI triage agent had already read 500 log lines, checked the last 3 deployments, and sent a Slack message: 'High confidence — N+1 query in order-service, introduced 12 minutes ago in commit a3f2bc1. Rollback command below.'"
 
 **Thread structure:**
 1. "Traditional triage: 20 minutes to understand what's happening"

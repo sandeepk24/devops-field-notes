@@ -562,14 +562,3 @@ def detect_regression(current_score: float, s3_bucket: str, bot_name: str) -> di
 
 ---
 
-**Suggested git commit message:**
-
-```
-docs(llmops): add eval pipeline guide for internal DevOps bots
-
-- Core concept: golden datasets, scorers, regression detection
-- Production architecture: CI gate pattern with S3 score history
-- Hands-on lab: full pytest + Anthropic SDK eval pipeline
-- LLM-as-judge pattern using Claude Haiku
-- GitHub Actions workflow for PR-gated eval runs
-```

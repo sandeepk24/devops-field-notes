@@ -45,8 +45,6 @@ Notice the `RESTARTS` column — by the time you see `CrashLoopBackOff`, it has 
 
 ### Why Should You Care?
 
-| Who You Are | Why This Matters |
-|---|---|
  Your app is down and not serving traffic — you need to act |
  Production incident. SLA breach risk. You need to diagnose fast. |
  Design flaw that shouldn't reach prod. Let's fix the system. |

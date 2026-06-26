@@ -2,7 +2,6 @@
 
 > **DevOps Field Notes** — production-grade references for engineers who'd rather fix it than Google it.
 
-**Audience:** Junior → Senior DevOps Engineers
 **Series:** SQLite for DevOps (Part 1 of 2)
 **Part 2 covers:** Security posture, threat model, CVEs, and production decision framework.
 

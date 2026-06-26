@@ -2,7 +2,6 @@
 
 > **DevOps Field Notes** — production-grade references for engineers who'd rather fix it than Google it.
 
-**Audience:** Junior → Senior DevOps Engineers
 **Series:** SQLite for DevOps (Part 2 of 2)
 **Prerequisite:** Part 1 (architecture, install, concurrency).
 

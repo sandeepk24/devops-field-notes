@@ -283,7 +283,7 @@ Here's how to quickly classify any AI use case you encounter:
 
 More practically:
 
-**Generative AI pattern** — ChatGPT-style interactions, code autocompletion, documentation generation, template creation, log analysis where you paste and it explains, security policy drafting.
+**Generative AI pattern** — LLM-style interactions, code autocompletion, documentation generation, template creation, log analysis where you paste and it explains, security policy drafting.
 
 **Agentic AI pattern** — automated incident response (the agent detects and acts), autonomous code review + PR creation, self-healing infrastructure, CI/CD pipeline agents that debug and re-run failing builds, chat bots that actually look up your real-time AWS cost data.
 

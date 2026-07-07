@@ -4,7 +4,6 @@ Two explanations of the same thing, aimed at two very different audiences. Part 
 
 ---
 
-## Part 1: For a 10 Year Old
 
 Imagine you run a lemonade stand, except it's not lemonade — it's answers. People walk up, ask you a question, and you give them an answer. That's basically what a website's "backend" does. Someone's phone sends a question ("show me my profile page"), and some code on a server sends back an answer.
 
@@ -20,7 +19,6 @@ So when you hear "we run our app with Gunicorn managing Uvicorn workers," here's
 
 ---
 
-## Part 2: For a Junior DevOps Engineer
 
 ### The one-sentence version
 

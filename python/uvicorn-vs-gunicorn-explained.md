@@ -1,6 +1,6 @@
 # Uvicorn and Gunicorn, Explained Twice
 
-Two explanations of the same thing, aimed at two very different audiences. Part 1 is for a curious 10 year old. Part 2 is for a junior DevOps engineer who needs to actually run this stuff in production.
+Two explanations of the same thing, aimed at two very different audiences.
 
 ---
 

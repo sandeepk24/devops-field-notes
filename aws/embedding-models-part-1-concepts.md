@@ -1,6 +1,6 @@
 # Embedding Models, Part 1 — The Concepts
 
-> **Who this is for:** You've deployed a Bedrock Knowledge Base, you've seen "embedding model" as a dropdown you picked once and never thought about again, and you want to actually understand what that component is doing — because when retrieval quality goes sideways at 3 AM, "the embedding model" is usually where the postmortem ends up. This two-part guide opens the box. Part 1 is the theory: what an embedding actually is, how these models get trained, and what the choices on the AWS Bedrock model list mean in practice. [Part 2](./embedding-models-part-2-choosing-and-operating.md) is the hands-on half: benchmarking, fine-tuning, deployment, and running embeddings as production infrastructure.
+> **Who this is for:** You've deployed a Bedrock Knowledge Base, you've seen "embedding model" as a dropdown you picked once and never thought about again, and you want to actually understand what that component is doing — because when search results turn out unhelpful, "the embedding model" is usually where the investigation ends up. This guide opens the box. Part 1 is the theory: what an embedding actually is, how these models get trained, and what the choices on the AWS Bedrock model list mean in practice. From there: [Part 2](./embedding-models-part-2-choosing-a-model.md) covers picking a model and testing whether it actually works, [Part 3](./embedding-models-part-3-using-and-deploying.md) covers calling one from code and where to run it, and [Part 4](./embedding-models-part-4-running-in-production.md) covers keeping it healthy once it's live.
 
 ---
 
@@ -135,4 +135,4 @@ This matters operationally the moment your corpus crosses from "demo with 500 do
 
 ---
 
-**Continue to [Part 2 — Choosing and Operating an Embedding Model](./embedding-models-part-2-choosing-and-operating.md):** benchmarking with MTEB, evaluating a model against your own data, fine-tuning, deployment options (Bedrock vs. SageMaker vs. self-hosted), Python code, versioning and migration strategy, and the failure modes that show up only in production.
+**Continue to [Part 2 — Picking a Model and Checking It Actually Works](./embedding-models-part-2-choosing-a-model.md):** why the public leaderboards only get you partway there, how to build a small test using your own real questions, and when it's actually worth training a custom model instead of using an existing one.
